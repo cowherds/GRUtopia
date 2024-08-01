@@ -47,5 +47,6 @@ while env.simulation_app.is_running():
         print('available observations for h1: {}'.format(obs[task_name][robot_name].keys()))
         print('current position of h1:{}'.format(obs[task_name][robot_name]['position']))
         print('current orientation of h1: {}'.format(quat_to_euler_angles(obs[task_name][robot_name]['orientation'])))
+        print(111)
 
 env.simulation_app.close()
